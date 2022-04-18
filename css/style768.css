@@ -1,0 +1,411 @@
+@media screen and (max-width: 1023px) {
+    
+    .container {
+        width: 98%;
+    }
+    .welcome_img {
+        width: calc(70%);
+    }
+    .welcome_image{
+        height: 100%;
+        width: 100%;
+    }
+    .welcome_img_scroll {
+        right: -7px;
+    }
+    .welcome_button {
+        width: 54%;
+    }
+    /* video  */
+    .video {
+        height: auto;
+    }
+    .player-controls {
+        padding: 0;
+        height: 12%;
+        justify-content: space-evenly;
+    }
+    #big_button_play {
+        position: absolute;
+        top: 43%;
+        left: 47%;
+        width: 80px;
+        height: 80px;
+    } 
+    .video-progress {
+        width: 58%;
+        order: 3
+    }
+    #sound-off-button {
+        order: 2;
+    }
+    #fullscreen-button {
+        order: 4
+    }
+    .slider {
+        width: 16.5%;
+    }
+    iframe {
+        width: 30%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .video-player {
+        margin-top: 40px;
+        height: auto;
+    }
+    .scroll_video {
+        margin-bottom: 60px;
+    }
+
+    .invisible_line {
+        visibility: visible;
+        position: absolute;
+        left:0;
+        right:0;
+        height: 4px;
+        top: -4px;
+        background-color: #C4C4C4;
+
+    }
+    .invisible_line_filled {
+        width: 25%;
+        height: 4px;
+        position: relative;
+        background-color: #710707;
+    }
+    .inv_line_filled_pointer {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        position: absolute;
+        top:-4px;
+        right: -8px;
+        background-color: white;
+    }
+    /* galery */
+
+    .picture-inner-container img {
+        width: calc(30%);
+    }
+    .picture-inner-container {
+        row-gap: 24px;
+        column-gap: 24px;
+    }
+    /* tikcet */
+    .place_for_buy {
+        height: auto;
+    }
+    .place_for_buy img {
+        width: calc(70%);
+        /* height: 30%; */
+    }
+
+    /* contacts  */
+    .contacts {
+        height: auto;
+    }
+    .contacts_data img{
+        width: calc(70%);
+        margin-bottom: 62px;
+    }
+    /* footer */
+    .footer_logo {
+        margin-top: 40px;
+    }
+    .footer_navigation {
+        height: auto;
+    }
+    .footer_container {
+        flex-wrap: wrap;
+    }
+    .footer_nav-bar {
+        margin-top: 40px;
+    }
+    .footer_nav-bar {
+        padding-left: 99px;
+    }
+    .footer_nav-bar ul {
+        column-gap: 184px;
+        grid-template-columns: 83px 83px
+    }
+    .social ul {
+        margin: 50px 70px 40px 0;
+    }
+    .footer_nav-bar ul li a{
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2px;
+    }
+    /* popup */
+    .popup__content {
+        min-width: 590px;
+        min-height: 1479px;
+        flex-direction: column;
+    }
+    div.elem-group.inlined input {
+        width: 100%;
+    }
+    .booking_date {
+        width: 530px;
+    }
+    .cash_form {
+        margin: 51px 0 40px 27px;
+        height: 665px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* header */
+    .header {
+        height: 110px;
+    }
+    .container {
+        width: 728px;
+    }
+    #burger-menu-items {
+        /* padding-top: 35px; */
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        top: 145px;
+        z-index: 999;
+        transition: 0.5s linear;
+    }
+    #image_in_burger {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 25px;
+        padding:  0 25px 25px;
+        border-bottom: 1px solid gray;
+    }
+    .social.for_header_social ul {
+        margin:0;
+        justify-content: center;
+    }
+    #burger-menu-items .for_header_social ul li {
+        margin:25px 25px 0 0;
+    }
+    .for_header_social {
+        display: initial;
+    }
+    .b_m_item {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 2px;
+    }
+
+    /* welcome */
+    .welcome {
+        height: auto;
+    }
+    .welcome_text,.welcome_img {
+        position: relative;
+    }
+    .overlay {
+        display: none;
+    }
+    .welcome_text {
+        padding: 0;
+    }
+    .welcome_text h2 {
+        text-align: center;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+    }
+    .welcome_text p {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+    }
+    .welcome_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome_button {
+        display: none;
+    }
+    .welcome_img {
+        align-self: flex-start;
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    .welcome_image {
+        width: 100%;
+    }
+    .welcome_img_scroll {
+        /* padding-left: 164px; */
+        justify-content: space-between;
+        right: unset;
+        width: 100%;
+        height: 100px;
+    }
+    .scroll_number {
+        margin-left: 164px;
+    }
+    .scroll_arrow {
+        margin-right: 163px;
+    }
+    .scroll_block_btn {
+        width: 12px;
+        height: 12px;
+    }
+    .scroll_arrow img:last-child {
+        margin-left: 20px;
+    }
+    /* visiting */
+    .visiting {
+        height: auto;
+    }
+    #visiting_title {
+        padding: 40px 0 20px;
+    }
+    .visiting_cards {
+        margin-top: 40px;
+
+        position: relative;
+        display: grid;
+        grid-template-columns: 280px 280px;
+        grid-template-rows: auto auto auto;
+        column-gap: 56px;
+        row-gap: 40px;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+   
+    .card_images {
+        width: 280px;
+        height: 180px;
+    }
+    .card h3{
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 3px;
+    }
+    .view_panoram a, .view_3d a {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    /* explore */
+    .explore_text_paragraph {
+        display: none;
+    }
+    .explore_text {
+        padding: 40px 0 20px;
+    }
+    #explore_title {
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+    }
+    .explore_img {
+        margin: 40px 0 40px;
+    }
+    /* video */
+    .video {
+        height: auto;
+    }
+    iframe {
+        width: calc(50% - 10px);
+        /* height: 199px; */
+    }
+    #big_button_play {
+        position: absolute;
+        top: 43%;
+        left: 47%;
+        width: 80px;
+        height: 80px;
+    } 
+    /* iframe:last-child {
+        display: none;
+    } */
+    .scroll_video {
+        margin: 21px 0 81px
+    }
+    #myRange {
+        display: none;
+    }
+    .video-progress {
+        width: 71%;
+    }
+    /* galery */
+    .galery {
+        height: 1220px;
+    }
+    .picture-inner-container {
+        height: 3688px;
+        column-gap: 24px;
+        margin-top: 40px;
+    }
+    .picture-inner-container img{
+        width: 352px;
+        max-height:440px;
+    }
+    #galery_title {
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+        padding-top: 40px;
+    }
+    /* ticket */
+    .place_for_buy {
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    .place_for_buy img {
+        width: 440px;
+        height: 340px;
+    }
+    .ticket_amount {
+        margin-left: 60px;
+    }
+    .paralax {
+        height: 300px;
+        background-position: center;
+    }
+
+    /* contacts */
+    .contacts {
+        height: 925px;
+        /* height: 1000px; */
+    }
+    #contacts_title {
+        padding:40px 0 20px;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 5px;
+    }
+    .contacts_data {
+        padding: 0;
+        margin: 40px 0 67px;
+        flex-direction: column;
+    }
+    .contacts_data img {
+        width: 100%;
+    }
+    .data_address h4 {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+    .data_address p {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .data_address p:last-child {
+        margin-bottom: 40px;
+    }
+    /* footer */
+
+
+    /* popup */
+
+    
+}

@@ -1,0 +1,534 @@
+
+@media screen and (max-width: 1439px) {
+    
+    .container {
+        width: 98%;
+    }
+    .welcome_img {
+        width: calc(70%);
+    }
+    .welcome_image{
+        height: 100%;
+        width: 100%;
+    }
+    .visiting {
+        height: auto;
+    }
+    .visiting_cards {
+        margin-top: 60px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 40% 40%;
+        column-gap: 5%;
+        row-gap: 60px;
+        justify-content: center;
+    }
+    .card_images {
+        width: 100%;
+    } 
+    .card h3 {
+        font-family: Forum;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    .card h3::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 40%;
+        background: #710707;
+    }
+    .card::after {
+        display: none;
+    }
+    .card:hover::after {
+        display: none;
+    }
+    /* explore  */
+    .explore {
+        height: auto;
+    }
+    .explore_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .explore_text {
+        align-self: flex-start;
+        width: 100%;
+        padding: 60px 0 20px;
+    }
+    .explore_text p br {
+        display: none;
+    }
+    .explore_img {
+        margin: 62px 0 60px
+    }
+    /*  video  */
+    .video {
+        height: auto;
+    }
+    .player-controls {
+        padding: 0;
+        height: 12%;
+        justify-content: space-evenly;
+    }
+    #big_button_play {
+        position: absolute;
+        top: 37%;
+        left: 40%;
+        width: 152px;
+        height: 152px;
+    } 
+    .video-progress {
+        width: 58%;
+    }
+    .slider {
+        width: 16.5%;
+    }
+    iframe {
+        width: 30%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .video-player {
+        margin-top: 40px;
+        height: auto;
+    }
+    .scroll_video {
+        margin-bottom: 60px;
+    }
+    /* galery */
+
+    .picture-inner-container img {
+        width: calc(30%);
+    }
+
+    /* tickets  */
+    .place_for_buy {
+        height: auto;
+    }
+    .place_for_buy img {
+        width: calc(50%);
+    }
+    /* contacts */
+    .contacts {
+        height: auto;
+    }
+    .contacts_data {
+        margin:60px 0 62px;
+        height: 620px;
+    }
+    .contacts_data .map{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 62px;
+    }
+
+    /* footer */
+    .footer_nav-bar {
+
+        padding-left: 45px;
+
+    }
+
+    .popup__content {
+        min-height: 768px;
+        min-width: 1024px;
+    }
+    .cash_form {
+        margin-bottom: 30px;
+    }
+    .ticket_form {
+        padding-top: 116px;
+        padding-left: 27px;
+        margin-right: 40px;
+    }
+    .add_ticket_button.for_total_tickets {
+        width: 105px;
+    }
+    .add_ticket_button {
+        margin: 0
+    }
+    .cash_form {
+        margin-bottom: 20px;
+        height: auto;
+    }
+    
+    
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 130px;
+    }
+    .container {
+        width: 984px;
+    }
+    #burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+    .header-container {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-bar {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+
+    .arrow_nav-right {
+        display: block;
+    }
+    #burger-menu-items {
+        /* padding-top: 35px; */
+        display: none;
+        position: absolute;
+        bottom: -165px;
+        left:0;
+        z-index: 999;
+        transition: 0.5s linear;
+    }
+    #burger-menu-items li{
+        margin-left: 35px;
+        margin-bottom: 25px;
+    }
+
+    #burger-menu-items li a {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 2px;
+
+        color: #FFFFFF;
+    }
+
+    .b_m_item {
+        display: flex;
+        width: 122px;
+        justify-content: space-between;
+    }
+
+
+    /* welcome */
+
+    .welcome {
+        height: 585px;
+    }
+    .welcome_image{
+        width: 700px;
+        height: 525px;
+    }
+    .overlay {
+        height: 525px;
+    }
+
+    .welcome_text {
+        padding-top: 50px;
+    }
+    .welcome_text h2 {
+        font-size: 50px;
+    }
+    .welcome_text p {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .welcome_button {
+        height: 60px;
+        width: 300px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .welcome_img_scroll {
+        width: 100%;
+        right: -11px;
+        bottom: -55px;
+        justify-content: flex-end;
+    }
+    .scroll_arrow {
+        margin-right: 95px;
+    }
+
+    /* visiting */
+    .visiting {
+        height: 1433px;
+    }
+
+    #visiting_title {
+        position: relative;
+        padding: 60px 0 20px;
+    }
+
+    #visiting_title span {
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 5px;
+    }
+    .visiting_cards {
+        margin-top: 60px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 330px 330px;
+        grid-template-rows: 345px 345px 345px;
+        column-gap: 108px;
+        row-gap: 60px;
+        justify-content: center;
+    }
+    .card {
+        padding:0;
+    }
+    .card h3::after {
+        display: none;
+    }
+    .card::after {
+        display: initial;
+    }
+    .card:hover::after {
+        display: initial;
+    }
+    .card::after {
+        content: "";
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 150px;
+        background: #710707;
+        transition: 0.3s linear;
+    }
+    .card:hover::after {
+        content: "";
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 100%;
+        background: #710707;
+    }
+    .card_images {
+        width: 330px;
+        height: 215px;
+    }
+    .card h3 {
+        font-size: 28px;
+        line-height: 31px;
+        letter-spacing: 3px;
+    }
+
+    /* explore */
+    
+
+    .explore_text p:last-child {
+        display: none;
+    }
+
+    .explore_title {
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 5px;
+    }
+    .view_3d a, .view_panoram a {
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .first_paragraph {
+        margin-top: 60px;
+    }
+    .second_paragraph {
+        margin-top: 0;
+    }
+
+    /* video */
+    
+    .text_video_wrapper {
+        padding-top: 60px;
+    }
+    #video_title {
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 5px;
+    }
+    .video_text {
+        display: none;
+    }
+    .video-player {
+        margin-top: 40px;
+        height: auto;
+    }
+    iframe {
+        width: 300px;
+        height: 170px;
+        border: 0;
+    }
+
+    /* galery */
+    .galery {
+        height: 1460px;
+    }
+    #galery_title {
+        padding-top: 60px;
+        font-size: 50px;
+        letter-spacing: 5px;
+        line-height: 75px;
+    }
+    .picture-inner-container {
+        height: 2020px;
+        margin-top: 60px;
+    }
+    .picture-inner-container img{
+        width: 304px;
+        max-height: 380px;
+    
+    }
+
+    /* Tickets */
+
+    .tickets {
+        height: auto;
+    }
+    #tickets_title {
+        padding: 60px 0 20px;
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 5px;
+    }
+    .place_for_buy{
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+    .place_for_buy img{
+        width: 700px;
+        height: 440px;
+    }
+    .ticket_type {
+        /* margin-top: 60px; */
+        display: none;
+    }
+    .ticket_amount {
+        align-items: flex-start;
+    }
+    .ticket_amount label {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .ticket_amount h4 {
+        margin-bottom: 29px;
+    }
+    .add_ticket_button {
+        width: 100%;
+    }
+    .last_ticket_block {
+        margin-bottom: 25px;
+    }
+    .total_cost {
+        margin-bottom: 63px;
+    }
+
+    /* contacts  */
+
+    .contacts {
+        height: auto;
+    }
+    .contacts_data {
+        margin:60px 0 62px;
+        height: 454px;
+    }
+    #contacts_title {
+        padding: 60px 0 20px;
+        font-size: 50px;
+        line-height: 75px;
+        letter-spacing: 5px;
+    }
+    .data_address h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .data_address p {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .contacts_data .map {
+        width: 100%;
+        height: 100%
+    }
+    /* footer  */
+    footer {
+        height: auto;
+        background-color: black;
+    }
+    .footer_navigation {
+        height: 243px;
+    }
+    .footer_logo {
+        padding: 0;
+        margin-top: 62px;
+    }
+    .footer_nav-bar {
+        padding-top:0 ;
+        margin-top: 65px;
+        padding-left: 45px;
+        width: auto;
+        align-items: flex-start;
+    }
+    .footer_nav-bar ul {
+        height: auto;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 26px 26px 26px;
+        row-gap: 25px;
+        column-gap: 100px;
+        justify-content: unset;
+        align-items: unset;
+        width: auto;
+    }
+    .social ul {
+        padding: 0;
+        margin-top: 145px;
+    }
+    .footer_data_container {
+        /* height: 122px; */
+        padding:50px 0;
+        /* margin: 50px; */
+        /* height: auto; */
+    }
+    /* popup */
+    .scroll_block.swiper-pagination-bullets {
+        display: flex;
+        width: 180px;
+        justify-content: space-between;
+        margin: 0 60px 0 55px;
+    }
+    
+    .scroll_block.swiper-pagination-bullets .swiper-pagination-bullet {
+        /* width: 180px; */
+        background-color: white;
+        border-radius: 0;
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+    }
+    
+    .scroll_block.swiper-pagination-bullets .swiper-pagination-bullet-active {
+        background-color: #D2B183;
+    
+    }
+    .scroll_block.swiper-pagination-bullets .swiper-pagination-bullet:hover {
+        background-color: #9D8665;
+    
+    
+    }
+}
+
+/* swiper  */
+
